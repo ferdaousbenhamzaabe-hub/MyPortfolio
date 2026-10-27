@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#191117">
+
+  <!-- SEO de base -->
+  <title>Ferdaous Abe — Software Engineering Student Portfolio</title>
+  <meta name="description" content="Portfolio de Ferdaous Abe, étudiante en génie informatique et développement logiciel. Découvrez mes projets, compétences et réalisations.">
+  <meta name="keywords" content="Ferdaous Abe, Software Engineering, Developer Portfolio, Full Stack, Génie Informatique, FST Tanger">
+  <meta name="author" content="Ferdaous Abe">
+
+  <!-- Open Graph / LinkedIn / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://votre-domaine.com/"> <!-- Remplacez par votre URL (ex: GitHub Pages ou Vercel) -->
+  <meta property="og:title" content="Ferdaous Abe — Software Engineering Portfolio">
+  <meta property="og:description" content="Découvrez mon parcours, mes projets et mes compétences en développement logiciel.">
+  <meta property="og:image" content="https://votre-domaine.com/abe-coding-hero.png"> <!-- URL absolue de l'image de couverture -->
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ferdaous Abe — Software Engineering Portfolio">
+  <meta name="twitter:description" content="Découvrez mon parcours, mes projets et mes compétences en développement logiciel.">
+  <meta name="twitter:image" content="https://votre-domaine.com/abe-coding-hero.png">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Ferdaous Abe home">Ferdaous Abe<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" type="button"
+              aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about" data-i18n="nav_about">About</a>
+        <a href="#skills" data-i18n="nav_skills">Skills</a>
+        <a href="#projects" data-i18n="nav_projects">Projects</a>
+        <a href="#journey" data-i18n="nav_journey">Learning</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
+        <button class="language-toggle" id="language-toggle" type="button" aria-label="Switch language">FR</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section container" id="home" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span><span data-i18n="hero_eyebrow">SOFTWARE ENGINEERING STUDENT</span></p>
+        <h1 id="hero-title"><span data-i18n="hero_line1">Building my path in</span><br><span class="accent" data-i18n="hero_line2">software engineering.</span></h1>
+        
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects"><span data-i18n="hero_projects">Explore my projects</span><span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#contact" data-i18n="hero_contact">Get in touch</a>
+        </div>
+        <div class="hero-meta">
+          <span data-i18n="hero_meta1">Learning by building</span>
+          <span class="meta-separator" aria-hidden="true"></span>
+          <span data-i18n="hero_meta2">Focused on Full Stack</span>
+        </div>
+      </div>
+      <!-- UPDATE: replace the text monogram with the selected coding-themed ABE artwork. -->
+      <div class="hero-art">
+        <img
+          class="hero-art-image"
+          src="abe-coding-hero.png"
+          alt="ABE portfolio artwork in a dark code-editor style with pink accents and software engineering text"
+          width="1408"
+          height="1024"
+          fetchpriority="high"
+        >
+      </div>
+    </section>
+
+    <section class="section container" id="about" aria-labelledby="about-title">
+      <div class="section-heading">
+        <p class="section-index">01 / <span data-i18n="label_intro">INTRODUCTION</span></p>
+        <h2 id="about-title" data-i18n="about_title">A little about me<span class="accent">.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-lead">
+          <p class="large-copy" data-i18n="about_lead">I’m a software engineering student interested in turning ideas into practical projects.</p>
+        </div>
+        <div class="about-body">
+          <p data-i18n="about_p1">I’m currently in the final year of my bachelor’s degree. I’m exploring different areas of software development, with a particular interest in Full Stack development.</p>
+          <p data-i18n="about_p2">Through personal and academic projects, I aim to strengthen my technical skills, gain practical experience, and build a solid foundation in software engineering.</p>
+          <div class="interest-row">
+            <span class="interest-label" data-i18n="outside_code">OUTSIDE THE CODE</span>
+            <span class="interest-chip" data-i18n="interest_reading">Reading novels</span>
+            <span class="interest-chip" data-i18n="interest_crochet">Crochet</span>
+            <span class="interest-chip" data-i18n="interest_walks">Walking</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-surface" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-index">02 / <span data-i18n="label_toolkit">TOOLKIT</span></p>
+          <h2 id="skills-title" data-i18n="skills_title">Technologies I’m exploring<span class="accent">.</span></h2>
+          <p class="section-intro" data-i18n="skills_intro">A snapshot of the languages, tools, and concepts I’ve studied so far.</p>
+        </div>
+        <div class="skill-groups">
+          <article class="skill-card">
+            <div class="skill-icon" aria-hidden="true">&lt;/&gt;</div>
+            <h3 data-i18n="skill_web_title">Programming & web</h3>
+            <p data-i18n="skill_web_desc">Languages and frameworks studied</p>
+            <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>Laravel</span><span>Java</span><span>C++</span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon" aria-hidden="true">⌘</div>
+            <h3 data-i18n="skill_tools_title">Tools & platforms</h3>
+            <p data-i18n="skill_tools_desc">Tools I use in my workflow</p>
+            <div class="tag-list"><span>Linux</span><span>Git</span><span>GitHub</span><span>VS Code</span><span>Figma</span><span>MySQL</span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon" aria-hidden="true">◇</div>
+            <h3 data-i18n="skill_concepts_title">Concepts & systems</h3>
+            <p data-i18n="skill_concepts_desc">Other areas included in my studies</p>
+            <div class="tag-list"><span>UML</span><span>ERP</span><span data-i18n="network_tag">Computer Networks</span></div>
+          </article>
+        </div>
+        <p class="honesty-note"><span data-i18n="skills_note">These are technologies I have studied; this list does not imply equal proficiency in every item.</span></p>
+      </div>
+    </section>
+
+    <section class="section container" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading heading-inline">
+        <div>
+          <p class="section-index">03 / <span data-i18n="label_selected_work">SELECTED WORK</span></p>
+          <h2 id="projects-title" data-i18n="projects_title">Things I’ve built<span class="accent">.</span></h2>
+        </div>
+        <p class="section-intro" data-i18n="projects_intro">Small projects, practical lessons, and room to improve.</p>
+      </div>
+      <!-- <div class="project-grid">
+        <article class="project-card">
+          <div class="project-visual visual-blackjack" aria-hidden="true">
+            <span class="playing-card card-red">♥<small>A</small></span>
+            <span class="playing-card card-black">♠<small>K</small></span>
+            <span class="table-label">BLACKJACK</span>
+          </div>
+          <div class="project-info">
+            <div class="project-topline"><span class="project-type" data-i18n="project_personal">PERSONAL PROJECT</span><span class="project-status status-done" data-i18n="status_built">Built</span></div>
+            <h3>Blackjack Game</h3>
+            <p data-i18n="blackjack_desc">A personal project based on the Blackjack card game.</p>
+            <div class="project-footer"><span class="project-tech" data-i18n="tech_to_confirm">Technologies to confirm</span><span class="project-arrow" aria-hidden="true">↗</span></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-todo" aria-hidden="true">
+            <div class="todo-window">
+              <div class="todo-window-top"><i></i><i></i><i></i><span>today.list</span></div>
+              <div class="todo-line checked"><b>✓</b><span></span></div>
+              <div class="todo-line"><b></b><span></span></div>
+              <div class="todo-line"><b></b><span></span></div>
+              <div class="todo-line short"><b></b><span></span></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-topline"><span class="project-type" data-i18n="project_personal">PERSONAL PROJECT</span><span class="project-status status-done" data-i18n="status_built">Built</span></div>
+            <h3>To-do List</h3>
+            <p data-i18n="todo_desc">A task list project for organizing everyday tasks.</p>
+            <div class="project-footer"><span class="project-tech" data-i18n="tech_to_confirm">Technologies to confirm</span><span class="project-arrow" aria-hidden="true">↗</span></div>
+          </div>
+        </article>
+        <article class="project-card project-planned">
+          <div class="project-visual visual-quiz" aria-hidden="true">
+            <div class="quiz-card"><span class="quiz-kicker">QUESTION 01</span><span class="quiz-question"></span><span class="quiz-option active"></span><span class="quiz-option"></span><span class="quiz-option"></span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-topline"><span class="project-type" data-i18n="project_next">NEXT PROJECT</span><span class="project-status status-planned" data-i18n="status_planned">Planned</span></div>
+            <h3>Quiz Application</h3>
+            <p data-i18n="quiz_desc">An interactive quiz with questions, answer selection, and score tracking.</p>
+            <div class="project-footer"><span class="project-tech" data-i18n="tech_planned">Technology stack to be decided</span><span class="project-arrow" aria-hidden="true">↗</span></div>
+          </div>
+        </article>
+      </div> -->
+      <div class="project-grid" id="project-grid">
+        <p style="color: var(--text-2);">Chargement des projets depuis GitHub...</p>
+      </div>
+    </section>
+
+    <section class="section section-surface" id="journey" aria-labelledby="journey-title">
+      <div class="container journey-grid">
+        <div class="section-heading">
+          <p class="section-index">04 / <span data-i18n="label_next_steps">NEXT STEPS</span></p>
+          <h2 id="journey-title" data-i18n="journey_title">Always learning<span class="accent">.</span></h2>
+        </div>
+        <div class="journey-content">
+          <p class="large-copy" data-i18n="journey_lead">My current goal is to keep practising and grow toward Full Stack development.</p>
+          <p data-i18n="journey_body">I also plan to explore new areas as part of my learning journey. These are learning goals, not claims of current expertise.</p>
+          <div class="learning-list">
+            <div><span class="learning-number">01</span><span>React</span><span class="learning-state" data-i18n="learning_to_start">To explore</span></div>
+            <div><span class="learning-number">02</span><span>React Native</span><span class="learning-state" data-i18n="learning_to_start">To explore</span></div>
+            <div><span class="learning-number">03</span><span data-i18n="cybersecurity">Cybersecurity</span><span class="learning-state" data-i18n="learning_to_start">To explore</span></div>
+            <div><span class="learning-number">04</span><span data-i18n="project_management">Project management</span><span class="learning-state" data-i18n="learning_to_start">To explore</span></div>
+            <div><span class="learning-number">05</span><span data-i18n="artificial_intelligence">Artificial Intelligence (AI)</span><span class="learning-state" data-i18n="learning_to_start">To explore</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact" aria-labelledby="contact-title">
+      <p class="section-index">05 / <span data-i18n="label_contact">CONTACT</span></p>
+      <h2 id="contact-title" data-i18n="contact_title">Let’s connect<span class="accent">.</span></h2>
+      <p class="contact-copy" data-i18n="contact_desc">I’m working to grow my skills through projects and practical experience. Feel free to explore my work or connect with me.</p>
+      <div class="contact-links" id="contact-links">
+        <!-- Replace the placeholder values in script.js with your real public links. -->
+        <span class="contact-placeholder">GitHub <small data-i18n="link_add_later">Link to add</small></span>
+        <span class="contact-placeholder">LinkedIn <small data-i18n="link_add_later">Link to add</small></span>
+        <span class="contact-placeholder" data-i18n="email_label">Professional email <small data-i18n="link_add_later">Link to add</small></span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#home">Ferdaous Abe<span>.</span></a>
+      <p data-i18n="footer_note">Designed and built with care.</p>
+      <a class="back-top" href="#home"><span data-i18n="back_top">Back to top</span> ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
